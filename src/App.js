@@ -16,17 +16,15 @@ function App() {
   }
 
   return (
-    <div className='main'>
-      <div className='center'>
+      <div className='card'>
       <h1>Counter App</h1>
       <h2>{value}</h2>
       <div className='btn'>
       <button onClick={onIncrement}>Increase</button>
       <button onClick={onDecrement} disabled={value===0}>Decrease</button>
       <button onClick={onReset} disabled={value===0}>Reset</button>
-    </div>
-    </div>
-    </div>
+      </div>
+      </div>
 
   )
 }

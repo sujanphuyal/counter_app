@@ -7,35 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1{
-  margin-bottom: 2px;
-}
-
-h2{
-  font-size: 30px;
-  margin-bottom: 40px;
-}
-
-.main{
-  width: 100%;
-  height: 100vh;
-  background: #18384b;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.center{
+.card{
   width: 30%;
-  height: 30vh;
+  height: 22vh;
   background-color: rgb(185, 223, 255);
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -43,6 +22,5 @@ h2{
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
